@@ -1,4 +1,4 @@
-# JS Live Backgroun
+# JS Live Background
 A simple and beautfull live background created with javascript and css only.
 
 
@@ -19,4 +19,3 @@ Right now, to run this background you'll just need to add:
 <script scr="/path/to/file/ transition-live-background.js"></script>
 <div id="background"></div>
 ```
-inside your <body> tag
