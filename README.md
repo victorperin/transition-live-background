@@ -24,3 +24,10 @@ and:
 </style>
 <div id="background"></div>
 ```
+
+
+##Using with bower
+You can just run
+```
+bower install --save live_background
+```
