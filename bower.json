@@ -8,11 +8,17 @@
   ],
   "description": "A simple and beautfull live background created with javascript and css only.",
   "keywords": [
-    "['live",
-    "background'",
-    "'background'",
-    "'website",
-    "background']"
+    "live background",
+    "background",
+    "website background"
   ],
-  "license": "MIT"
+  "ignore": [
+    "node_modules",
+    "bower_components",
+    "exemplo.html"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "~2.1.3"
+  }
 }
