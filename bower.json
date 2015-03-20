@@ -1,0 +1,18 @@
+{
+  "name": "JS Live Background",
+  "main": "background.js",
+  "version": "0.0.1",
+  "homepage": "https://github.com/victorperin/transition-live-background",
+  "authors": [
+    "Victor Perin <me@victorperin.com>"
+  ],
+  "description": "A simple and beautfull live background created with javascript and css only.",
+  "keywords": [
+    "['live",
+    "background'",
+    "'background'",
+    "'website",
+    "background']"
+  ],
+  "license": "MIT"
+}
