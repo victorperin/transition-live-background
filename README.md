@@ -2,12 +2,17 @@
 A simple and beautfull live background created with javascript and css only.
 
 
+##Instalation
+You can install it with bower using:
+```
+bower install --save live_background
+```
+Or just copy the `background.js` file on your project.
+
 ##How to use?
-(in a near future there'll be a bower package)
 
 Right now, to run this background you'll just need to add there 2 parts of code:
 ```html
-<script scr="/path/to/jquery/bower_components/jquery/dist/jquery.min.js"></script> <!-- feel free to use your own jquery -->
 <script scr="/path/to/file/background.js"></script>
 ```
 
@@ -23,11 +28,4 @@ and:
   }
 </style>
 <div id="background"></div>
-```
-
-
-##Using with bower
-You can just run
-```
-bower install --save live_background
 ```
