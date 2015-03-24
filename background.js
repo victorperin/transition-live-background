@@ -49,12 +49,8 @@ function atualizarGradiente(){
   var b2 = Math.round(istep * cor[1][0][2] + passo * cor[1][1][2]);
   var color2 = "rgb("+r2+","+g2+","+b2+")";
 
-  $('#gradient')
-    .css({background: "linear-gradient(left, "+color1+" 0%, "+color2+" 100%)"})
-    .css({background: "-webkit-gradient(linear, left top, right top, from("+color1+"), to("+color2+"))"})
-    .css({background: "-moz-linear-gradient(left, "+color1+" 0%, "+color2+" 100%)"})
-    .css({background: "-o-linear-gradient(left, "+color1+" 0%, "+color2+" 100%)"})
-    .css({background: "-ms-linear-gradient(left, "+color1+" 0%, "+color2+" 100%)"});
+
+  document.getElementById("gradient").style = "background:linear-gradient(left, "+color1+" 0%, "+color2+" 100%);background:-webkit-gradient(linear, left top, right top, from("+color1+"), to("+color2+"));background:-moz-linear-gradient(left, "+color1+" 0%, "+color2+" 100%);background:-o-linear-gradient(left, "+color1+" 0%, "+color2+" 100%);background:-ms-linear-gradient(left, "+color1+" 0%, "+color2+" 100%);";
 
 
 
