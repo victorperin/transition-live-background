@@ -11,7 +11,7 @@ Or just copy the `background.js` file on your project.
 
 ##How to use?
 
-Right now, to run this background you'll just need to add there 2 parts of code:
+Right now, to run this background, just add these two pieces of code:
 ```html
 <script scr="/path/to/file/background.js"></script>
 ```
