@@ -1,7 +1,7 @@
 {
   "name": "JS Live Background",
   "main": "background.js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "https://github.com/victorperin/transition-live-background",
   "authors": [
     "Victor Perin <me@victorperin.com>"
@@ -18,7 +18,5 @@
     "exemplo.html"
   ],
   "license": "MIT",
-  "dependencies": {
-    "jquery": "~2.1.3"
-  }
+  "dependencies": {}
 }
